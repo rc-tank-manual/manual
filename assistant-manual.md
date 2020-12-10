@@ -1,4 +1,4 @@
-# 目次 {ignore=true}
+# 目次
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
