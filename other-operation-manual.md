@@ -29,7 +29,8 @@
 
 このラジコン戦車のキットですが、Raspberry Pi3 が付属しているセットがamazonにて販売されています。
 
-ラジコン戦車を作りたいだけなのに、無駄にスペックが高い部品ばかりな気がします。そもそも、これくらいのプログラムなら[ラズパイ3](https://a.r10.to/hboCpt)を使わずとも[ラズパイゼロ](https://www.amazon.co.jp/gp/product/B076BHY12Y/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B076BHY12Y&linkCode=as2&tag=aikotobahaabu-22&linkId=38e5828a1a3829ffe12b54adf5833df5)で十分動くわけです。 ラズパイゼロ使えば消費電力は小さく済むので、バッテリも小さくて安いので十分なわけです。
+<!--ラジコン戦車を作りたいだけなのに、無駄にスペックが高い部品ばかりな気がします。そもそも、これくらいのプログラムなら[ラズパイ3](https://a.r10.to/hboCpt)を使わずとも[ラズパイゼロ](https://www.amazon.co.jp/gp/product/B076BHY12Y/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B076BHY12Y&linkCode=as2&tag=aikotobahaabu-22&linkId=38e5828a1a3829ffe12b54adf5833df5)で十分動くわけです。-->
+ラジコン戦車は、ラズパイゼロでも動かすことが出来ます。 ラズパイゼロを使えば消費電力は小さく、購入価格も安く済むので、バッテリも小さくて安いもので十分動作するわけです。
 
 ということで、[ラズパイゼロ](https://www.amazon.co.jp/gp/product/B076BHY12Y/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B076BHY12Y&linkCode=as2&tag=aikotobahaabu-22&linkId=38e5828a1a3829ffe12b54adf5833df5)で動かしてみました。
 
