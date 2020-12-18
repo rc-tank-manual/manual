@@ -45,7 +45,7 @@
 
 ここでは、元ネタの本のように、Raspberry Piの公式ホームページから[Raspbian](https://www.raspberrypi.org/downloads/raspbian/)をダウンロードし、 Micro-SDカードに書き込みました。
 
-以下のサイトのようにNOOBSでインストールすることもできます。 NOOBSでインストールすれば、インストールに時間がかかりますが、操作がわかりやすいですし、「Win32 Disk Imager」のようなソフトも必要ありません。
+以下のサイトのようにNOOBSでインストールすることもできます。 NOOBSでインストールすれば、インストールに時間がかかりますが、操作がわかりやすいですし、「Win32 Disk Imager」のようなソフトは必要ありません。
 
 https://qiita.com/henjiganai/items/2b39dd8cbc3cc3cbe4a4
 
@@ -159,11 +159,11 @@ Bluetoothを常に待ち受け状態にします。
     	rfcomm listen /dev/rfcomm0 7
     done
 
-本の中では何も書かれていなかったのですが、シェルスクリプトは権限を与えないと動作しないと思います。
+本の中では書かれていなかったのですが、シェルスクリプトは動作させるのに権限を与える必要があります。
 
     chmod 755 /home/pi/RemoteControl/register_rfcomm.sh
 
-このシェルスクリプトを自動起動させるために、本とは違い、rc.localファイルに明記しました。「fi」と「exit 0」の間に以下を記述します。
+このシェルスクリプトを自動起動させるためにrc.localファイルに明記しました。「fi」と「exit 0」の間に以下を記述します。
 
     /home/pi/RemoteControl/register_rfcomm.sh &
 
